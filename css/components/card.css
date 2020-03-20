@@ -1,0 +1,24 @@
+.cards {
+	display: flex; /* Pour transformer une div en une flex-box*/
+  flex-wrap: wrap;
+}
+
+.card {
+	padding: 30px;
+	display: flex; /* Pour transformer une div en une flex-box*/
+	align-items: center;
+	justify-content: space-around;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+	border-radius: 7px;
+	margin: 20px 10px;
+	flex-basis: 400px; /*largeur d'une card*/
+	flex-grow: 1; /* pour que les cards dans la card principale (flex dans flex prennent la place dispo même si leurs felx-basis est plus petite) */
+}
+
+.card img {
+	width: 200px;
+	border-radius: 7px;
+}
+
+
+

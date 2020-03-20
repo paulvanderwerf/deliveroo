@@ -1,0 +1,13 @@
+.apply {
+  font-size: 22px;
+  color: rgb(0, 204, 188);
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+}
+
+.apply:hover{
+color: black;
+}
+
+
+

@@ -1,0 +1,15 @@
+.btn-sign-in {
+  background-color: rgb(0, 204, 188);
+  padding: 10px 20px;
+  border-radius: 4px;
+  color: white;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  margin: 0px auto;
+  position: center;
+}
+
+.btn-sign-in:hover{
+background-color: rgb(121,186,193);
+color: white;
+}
